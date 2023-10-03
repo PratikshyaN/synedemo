@@ -1,0 +1,23 @@
+No,Merchant ID(M),Terminal ID(M),Aquirer Institution identification code(O),Card Acceptor Name(O),Card Acceptor Country Location(O),Card Acceptor country code(O),POS Geo Data(O),Merchant type(O),Aquirer Institution Country code(O),Merchant Verification Value(O),"Delete" END
+1,123456789012345,12342357,12345678912,John,PINEVELLE,US,74432890,6011,840,,
+2,1234567890123466,12342353,12345678412,John,PINEVELLE,US,74432890,5312,8406,,
+
+
+Merchant Details	
+Merchant ID: Fixed, 15 ANS
+Terminal ID: Fixed, 8 ANS
+Merchnat Type: Fixed, 4 N
+Aqr institution identification code: Variable, min 6, max 11, N
+Aqr institution country code: Fixed, 3 N
+Card acceptor Name:	Variable, min 1, max 25, ANS
+Card acceptor location:	Variable, min 1, max 13, ANS
+Card acceptor country code:	Fixed, 2 AC
+Zip code: Variable, min 6, max 14, ANS
+Merchant Verification value: Fixed, 10 N
+
+
+N = Numeric
+ANS = Alphanumeric special characters
+AC = Alphabetic characters
+
+Note: While uploading this file, please make sure to keep only heading and merchant details with respect to heading. Please remove other details which is containig from merchant details
